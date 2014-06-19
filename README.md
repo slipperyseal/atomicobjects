@@ -53,9 +53,9 @@ The project also aims to supply a library of quality modules. These can be used 
 * Various high quality utility classes such as stream, reflection, binary, math, string and build time tools.
 * Single Page Overview Doclet.
 
-http://www.catchpole.net/images/catchpolespin.png
+![Atomic](http://www.catchpole.net/images/catchpolespin.png "Atomic Objects")
 
-http://www.catchpole.net/images/dependencies.png
+![Atomic](http://www.catchpole.net/images/dependencies.png "dependencies")
 
 This project uses the following Open Source libraries:
 * Janino embedded compiler 
