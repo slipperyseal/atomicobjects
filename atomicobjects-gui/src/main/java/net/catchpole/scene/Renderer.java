@@ -1,0 +1,32 @@
+package net.catchpole.scene;
+
+//   Copyright 2014 catchpole.net
+//
+//   Licensed under the Apache License, Version 2.0 (the "License");
+//   you may not use this file except in compliance with the License.
+//   You may obtain a copy of the License at
+//
+//       http://www.apache.org/licenses/LICENSE-2.0
+//
+//   Unless required by applicable law or agreed to in writing, software
+//   distributed under the License is distributed on an "AS IS" BASIS,
+//   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//   See the License for the specific language governing permissions and
+//   limitations under the License.
+
+import net.catchpole.scene.overlay.OverlayManager;
+import net.catchpole.scene.spacial.Coordinate3D;
+
+public interface Renderer extends Resizable {
+    public void init(Milieu milieu);
+
+    public void resize(Milieu milieu, int width, int height);
+
+    public void render(Milieu milieu);
+
+    public void destory(Milieu milieu);
+
+    public Coordinate3D getZoom();
+
+    public OverlayManager getOverlayManager();
+}
