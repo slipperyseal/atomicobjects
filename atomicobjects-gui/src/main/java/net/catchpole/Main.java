@@ -16,12 +16,15 @@ package net.catchpole;
 
 import net.catchpole.fuse.Junction;
 import net.catchpole.fuse.JunctionBox;
+import net.catchpole.io.file.FileModel;
 import net.catchpole.lang.Arguments;
 import net.catchpole.lang.Throw;
 import net.catchpole.model.Model;
 import net.catchpole.model.ModelSource;
 import net.catchpole.scene.Scene;
 import net.catchpole.scene.renderer.ModelRenderer;
+
+import java.io.File;
 
 public class Main {
     private final String host;
@@ -41,8 +44,11 @@ public class Main {
                     getModel(arguments.getArgument("-model")) :
                     new MasterModelSource().get();
 
-            new Scene("Catchpole", new ModelRenderer(model)).dispatch();
-            System.exit(0);
+            new Scene("Catchpole",
+                    //new ModelRenderer(model)
+                    new ModelRenderer(new FileModel(new File("/tmp")))
+            );
+            //System.exit(0);
         }
 
         synchronized (this) {

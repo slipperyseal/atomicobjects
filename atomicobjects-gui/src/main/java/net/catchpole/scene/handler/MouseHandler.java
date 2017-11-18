@@ -34,7 +34,8 @@ public class MouseHandler implements MouseListener {
     }
 
     public void mouseClicked(MouseEvent mouseEvent) {
-        window.setFullscreen(!window.isFullscreen());
+
+        //window.setFullscreen(!window.isFullscreen());
     }
 
     public void mouseEntered(MouseEvent mouseEvent) {

@@ -18,8 +18,8 @@ import net.catchpole.scene.Milieu;
 import net.catchpole.scene.gl.GLTools;
 import net.catchpole.scene.spacial.Position;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.awt.*;
 import java.nio.ByteBuffer;
 import java.nio.ShortBuffer;

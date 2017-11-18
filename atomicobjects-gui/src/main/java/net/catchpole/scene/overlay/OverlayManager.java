@@ -18,8 +18,8 @@ import net.catchpole.scene.Milieu;
 import net.catchpole.scene.Resizable;
 import net.catchpole.scene.spacial.Coordinate2D;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

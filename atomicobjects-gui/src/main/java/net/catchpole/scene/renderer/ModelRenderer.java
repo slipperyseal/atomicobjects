@@ -27,8 +27,8 @@ import net.catchpole.scene.overlay.OverlayManager;
 import net.catchpole.scene.spacial.Coordinate3D;
 import net.catchpole.scene.spacial.Position;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 
 public class ModelRenderer implements Renderer {
     private static final float[] lightPosition = {-45.f, 60.f, 70.0f, 0.f};
@@ -53,7 +53,7 @@ public class ModelRenderer implements Renderer {
 
     public void init(Milieu milieu) {
         this.overlayManager.addOverlay(new ListOverlay(rootModel));
-        this.overlayManager.addOverlay(new ImageOverlay("./test.jpg"));
+        //this.overlayManager.addOverlay(new ImageOverlay("./test.jpg"));
     }
 
     public void resize(Milieu milieu, int width, int height) {

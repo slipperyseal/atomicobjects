@@ -17,8 +17,8 @@ package net.catchpole.scene.gl;
 import net.catchpole.lang.Maths;
 import net.catchpole.lang.Throw;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;

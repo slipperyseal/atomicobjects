@@ -50,16 +50,20 @@ public class FileModel implements Model {
     }
 
     public Iterator<Model> iterator() {
-        if (file.isDirectory()) {
-            return new TransformationIterator<File, Model>(
-                    new ArrayIterator<File>(file.listFiles(dotFilter)),
-                    new Transformation<File, Model>() {
-                        public Model transform(File source) {
-                            return new FileModel(source);
+        try {
+            if (file.isDirectory()) {
+                return new TransformationIterator<File, Model>(
+                        new ArrayIterator<File>(file.listFiles(dotFilter)),
+                        new Transformation<File, Model>() {
+                            public Model transform(File source) {
+                                return new FileModel(source);
+                            }
                         }
-                    }
-            );
+                );
 
+            }
+        } catch (Exception e) {
+            //may be inaccessible due to permissions
         }
         return new NullIterator<Model>();
     }
