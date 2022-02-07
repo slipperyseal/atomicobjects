@@ -60,7 +60,7 @@ This project uses the following Open Source libraries:
 * HSQLDB embedded database
 * JUnit
 
-![atomic](http://kamome.slipperyseal.net/atomic-spin.jpg "atomic")
+![atomic](https://storage.googleapis.com/kyoto.catchpole.net/atomic-spin.jpg "atomic")
 
 # Fuses
 
