@@ -12,8 +12,8 @@ The project name was recycled into something with the same fundimentals, and wil
 https://github.com/slipperyseal/atomic
 
 ```
-The main flaw with this project is that it assumed magically well crafted and well interfaced classes could interact with each other.
-But who would write such magical classes? Not me, that's for sure.
+The main flaw with this project is that it assumed magically well crafted and well interfaced classes
+could interact with each other. But who would write such magical classes? Not me, that's for sure.
 
 So... this was the idea..
 ```
