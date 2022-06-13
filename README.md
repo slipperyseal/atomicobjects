@@ -3,9 +3,20 @@ Atomic Objects
 
 Automagical Object Transformations
 
-This is an old project. Its really just here for prosperity and for use as spare parts.
+```
+This is an old project. Its really just here for prosperity.
+```
+
+The project name was recycled into something with the same fundimentals, and will hopefully be a little more useful:
+
+https://github.com/slipperyseal/atomic
+
+```
+The main flaw with this project is that it assumed magically well crafted and well interfaced classes could interact with each other.
+But who would write such magical classes? Not me, that's for sure.
 
 So... this was the idea..
+```
 
 Atomic is a collection of Java modules that provide self-managed integration of data sources, component libraries and user interfaces.  These modules can be used individually by developers or in combination as an application.
 
