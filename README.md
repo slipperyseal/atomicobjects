@@ -5,15 +5,9 @@ Automagical Object Transformations
 
 ```
 This is an old project. Its really just here for prosperity.
-```
 
-The project name was recycled into something with the same fundimentals, and will hopefully be a little more useful:
-
-https://github.com/slipperyseal/atomic
-
-```
 The main flaw with this project is that it assumed magically well crafted and well interfaced classes
-could interact with each other. But who would write such magical classes? Not me, that's for sure.
+could interact with each other. But who could write such magical classes? Not me, that's for sure.
 
 So... this was the idea..
 ```
