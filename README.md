@@ -65,8 +65,6 @@ This project uses the following Open Source libraries:
 * HSQLDB embedded database
 * JUnit
 
-![atomic](https://storage.googleapis.com/kyoto.catchpole.net/atomic-spin.jpg "atomic")
-
 # Fuses
 
 A Fuse will accept a parameter Criteria and produce a result, itself defined as a Criteria.
